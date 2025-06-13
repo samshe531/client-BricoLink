@@ -1,0 +1,80 @@
+/* Conteneur principal */
+.register {
+  padding: 2rem;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+.form-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.form-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Cartes et groupes de formulaire */
+.pro-form-container {
+  background-color: #fdfdfd;
+  border: 1px solid #e2e6ea;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.pro-form-group {
+  margin-bottom: 1.5rem;
+}
+
+/* Sélecteurs */
+.Localisation .form-select {
+  margin-bottom: 0.5rem;
+}
+
+.react-select__control {
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+}
+
+.react-select__multi-value {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Zone de texte */
+.pro-description-textarea {
+  resize: vertical;
+  border-radius: 8px;
+}
+
+/* Bouton */
+.pro-submit-btn {
+  display: block;
+  width: 100%;
+  background-color: #0d6efd;
+  border: none;
+  font-weight: 500;
+  padding: 0.75rem;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.pro-submit-btn:hover {
+  background-color: #084298;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .form-container {
+    padding: 1rem;
+  }
+}

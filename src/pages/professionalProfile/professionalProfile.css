@@ -1,0 +1,24 @@
+.pro-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.pro-card {
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.pro-photo {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}

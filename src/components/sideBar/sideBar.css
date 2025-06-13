@@ -1,0 +1,13 @@
+.sidebar {
+  position:fixed ;
+  top: 60px; 
+  left: 0; 
+  height: 100vh;
+  width: 12%;
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-right: 1px solid #dee2e6;
+  z-index: 1000;
+}
+
+

@@ -1,0 +1,7 @@
+.listPro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap !important;
+    gap: 5px;
+}
