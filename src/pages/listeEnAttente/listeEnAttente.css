@@ -1,0 +1,7 @@
+.list-pro {
+  flex: 1;
+  padding: 20px;
+  min-height: calc(100vh - 100px); /* ajuste selon la hauteur de ton header + footer */
+  background-color: #fff;
+  margin-top:50px;
+}

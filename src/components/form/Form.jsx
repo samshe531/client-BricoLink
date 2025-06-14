@@ -85,6 +85,7 @@ const ProfessionalForm = () => {
     dispatch(becomePro(formData, navigate));
   };
 // console.log(formData)
+
   return (
     <Card className="pro-form-container">
       <Card.Body>
@@ -194,7 +195,7 @@ const ProfessionalForm = () => {
               accept=".png, .jpg, .jpeg"
               onChange={handlePhotoUpload}
               className="pro-file-input"
-              
+              required
             />
             {formData.photoPreview && (
   <div className="pro-photo-preview mt-3">

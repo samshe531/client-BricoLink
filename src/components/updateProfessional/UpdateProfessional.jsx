@@ -108,7 +108,7 @@ const { id } = useParams();
             />
           </Form.Group>
 
-          {/* <Form.Group className="mb-3">
+          <Form.Group className="mb-3">
             <Form.Control
               type="email"
               placeholder={user.email}
@@ -117,7 +117,7 @@ const { id } = useParams();
               required
               onChange={handleChange}
             />
-          </Form.Group> */}
+          </Form.Group>
 
           <Form.Group className="mb-3">
             <Form.Control

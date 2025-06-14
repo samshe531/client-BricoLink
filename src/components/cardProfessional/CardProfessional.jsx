@@ -9,7 +9,7 @@ const CardProfessional = ({ ouvrier }) => {
   const user = useSelector((state) => state.authReducer.user);
   
   return (
-    <Card className="m-3 shadow-sm cardPro" style={{ maxWidth: "22rem" }}>
+    <Card className="m-3 shadow-sm cardPro" style={{  minWidth:"22rem" }}>
       <Card.Body>
         <Row className="align-items-center mb-3">
           {/* Image Placeholder */}

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import {  toBePro } from '../../JS/actions/bPro.action';
 import Sidebar from '../../components/sideBar/SideBar';
-// import './professionals.css'
+import './listeEnAttente.css'
 import ListToBePro from '../../components/ListToBePro/ListToBePro';
 
 
