@@ -9,22 +9,25 @@ const Sidebar = () => {
     const navigate = useNavigate();
     if (!user?.isAdmin) return null;
   return (
-    <div className="sidebar">
-      <Nav defaultActiveKey="dashboard" className="flex-column">
+    <div className="sidebar">  
 
-        <Nav.Link eventKey="dashboard" onClick={() => navigate("/admin")}>
-        Utilisateurs
-        </Nav.Link>
-        <Nav.Link eventKey="users" onClick={() => navigate("/allProfessionals")}>
-          Professionnels
-        </Nav.Link>
-        <Nav.Link eventKey="settings" onClick={() => navigate("/toBePro")}>
-          Demandes Pro
-        </Nav.Link>
-      </Nav>
+<Nav className="flex-column align-items-center">
+  <Nav.Item>
+    <Nav.Link onClick={() => navigate("/admin")}>Utilisateurs</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link onClick={() => navigate("/allProfessionals")}>Professionnels</Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link onClick={() => navigate("/toBePro")}>Demandes Pro</Nav.Link>
+  </Nav.Item>
+</Nav>
+
+      
     </div>
   );
 };
 
 export default Sidebar;
 
+  

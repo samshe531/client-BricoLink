@@ -14,14 +14,15 @@ const users = useSelector(state => state.userReducer.users);
   }, [dispatch])
   
   return (
-
-    <div>
+  
+    <div className="dashboard-layout">
       <Sidebar />
       <div className='dashboard-content'>
      <h2>La liste des utilisateurs est: </h2>
      <ListUsers users={users} />
     </div>
     </div>
+    
   )
 }
 

@@ -15,7 +15,7 @@ const UserCard = ({user}) => {
       <ListGroup className="list-group-flush">
       </ListGroup>
       <Card.Body>
-       <div className="btn1">
+       <div className="bouton">
        <DetailUsers user={user} />
       {!user.isAdmin && <Button variant="danger" onClick={()=> setUserToDel(true)}>Delete</Button>}
       </div>

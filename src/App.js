@@ -46,6 +46,7 @@ function App() {
       {isLoad  && <Loading/>} 
       <ErrorToast errors={errors}/>
       <SuccessToast success={success} />
+      <main>
       {/* routes */}
       <Routes>
         <Route path="/" element={<Home />} />
@@ -70,6 +71,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/*" element={<Error />} />
       </Routes>
+      </main>
       {/* footer */}
       <Footer />
     </div>
